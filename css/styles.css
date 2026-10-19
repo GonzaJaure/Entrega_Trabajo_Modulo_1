@@ -93,3 +93,34 @@ body {
   background-color: #f2e9d8;
   padding: 5px;
 }
+.contenido {
+  margin: 16px;
+  background-color: #f2e9d8;
+  display: grid;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.collares {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Use ayuda de IA, no se me ocurrio una forma de no deformar las imagenes sin que el contenedor quede con espacios en blanco*/
+  border: 1px solid #33312b;
+  border-radius: 8px;
+}
+.cards {
+  padding: 6px;
+  margin: 6px;
+  border: 1px #5e5951 solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.cards:hover {
+  background-color: #f0e3cb;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cards:active {
+  background-color: #f2e9d8;
+}
