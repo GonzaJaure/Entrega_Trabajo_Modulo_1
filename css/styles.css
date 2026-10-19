@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: poppins;
+}
+li {
+  list-style: none;
+}
+
+.a1 {
+  text-decoration: none;
+  color: #fff7e5;
+  font-size: 14px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+
+  color: black;
+}
+body {
+  background-color: #f7f2ea;
+}
+.navegacion {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  background-color: #f2e9d8;
+  justify-content: space-around;
+}
+.logo {
+  max-width: 120px;
+  width: auto;
+}
+.button {
+  text-decoration: none;
+  border: solid 1px #5e5951;
+  border-radius: 4px;
+  max-width: 100%;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav1 {
+  background-color: #646255;
+  border-radius: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.nav1:hover {
+  background-color: #535247;
+}
+.nav1:active {
+  background-color: #646255;
+}
+.presentacion {
+  display: flex;
+
+  background-color: #f2e9d8;
+  margin: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.presentacion1 {
+  padding: 6px;
+  color: #33312b;
+}
+.joyeria {
+  max-width: 100%;
+  height: auto;
+  padding: 6px;
+}
+.presentacion > :first-child {
+  width: 60%;
+}
+
+.presentacion > :last-child {
+  width: 40%;
+}
+.footer {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2e9d8;
+  padding: 5px;
+}
+.contenido {
+  margin: 16px;
+  background-color: #f2e9d8;
+  display: grid;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.collares {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Use ayuda de IA, no se me ocurrio una forma de no deformar las imagenes sin que el contenedor quede con espacios en blanco*/
+  border: 1px solid #33312b;
+  border-radius: 8px;
+}
+.cards {
+  padding: 6px;
+  margin: 6px;
+  border: 1px #5e5951 solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.cards:hover {
+  background-color: #f0e3cb;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cards:active {
+  background-color: #f2e9d8;
+}
+.formulario {
+  max-width: 100%;
+  margin: 32px;
+  padding: 24px;
+  background-color: #f2e9d8;
+  border: 1px solid #535247;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.formulario input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+.formulario textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+.enviar {
+  text-decoration: none;
+  border: solid 1px #5e5951;
+  border-radius: 4px;
+  max-width: 100%;
+  font-family: poppins;
+}
