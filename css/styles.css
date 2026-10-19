@@ -124,3 +124,42 @@ body {
 .cards:active {
   background-color: #f2e9d8;
 }
+formulario {
+  max-width: 100%;
+  margin: 32px;
+  padding: 24px;
+  background-color: #f2e9d8;
+  border: 1px solid #535247;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.formulario input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+.formulario textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+.enviar {
+  text-decoration: none;
+  border: solid 1px #5e5951;
+  border-radius: 4px;
+  max-width: 100%;
+  font-family: poppins;
+}
